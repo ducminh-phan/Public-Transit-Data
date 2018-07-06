@@ -91,7 +91,7 @@ out-hub of the stop `s`, and `s` is the shortest-path distance from `s` to `h`.
 
 The in-hubs and out-hubs satisfy the following covering property:
 
-![]("https://latex.codecogs.com/png.latex?%5CLARGE%20d%28u%2Cv%29%3D%5Cmin_%7Bh%7B%5Cin%7DH%5E&plus;%28u%29%7B%5Ccap%7DH%5E-%28v%29%7D%5C%7Bd%28u%2Ch%29&plus;d%28h%2Cv%29%5C%7D")
+![](https://latex.codecogs.com/png.latex?%5CLARGE%20d%28u%2Cv%29%3D%5Cmin_%7Bh%7B%5Cin%7DH%5E&plus;%28u%29%7B%5Ccap%7DH%5E-%28v%29%7D%5C%7Bd%28u%2Ch%29&plus;d%28h%2Cv%29%5C%7D)
 
 where `H⁺(u)` is the set of out-hubs of `u` and `H⁻(v)` is the set of in-hubs of `v`.
 

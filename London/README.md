@@ -1,7 +1,7 @@
 The dataset for London was obtained from [Transport for London Unified API](https://api.tfl.gov.uk/) using
 [`tflgtfs`](https://github.com/CommuteStream/tflgtfs).
 
-Extracted date: 2015-11-01.
+Extracted date: 2015-11-06.
 
 # License
 

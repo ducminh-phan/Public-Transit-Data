@@ -70,8 +70,8 @@ where a connection between routes ends.
 This file represents the unrestricted walking graph for each location. The graph is directed and weighted. Each arc
 of the graph is represented by a line in the decompressed file.
 
-The format of each line is `s t d`, where `s`/`t` are the id of the source/target. `d` is the walking distance
-from `s` to `t`, which is an integer with the unit of 10 cm.
+The format of each line is `s t d`, where `s`/`t` are the id of the source/target. `d` is the walking time
+from `s` to `t`, which is an integer with the unit of 1 second.
 
 ## `in_hubs.gr.gz`
 
@@ -103,8 +103,8 @@ where `H⁺(u)` is the set of out-hubs of `u` and `H⁻(v)` is the set of in-hub
 | trips        | 122047  | 78757   | 369744      |
 | stops        | 19746   | 23519   | 25427       |
 | events       | 4695285 | 1915253 | 4740869     |
-| transfers    | 61254   | 116579  | 5604        |
-| nodes        | 279622  | 528903  | 603544      |
-| edges        | 774568  | 1409709 | 1844286     |
-| avg in hubs  | 73.27   | 112.97  | 80.74       |
-| avg out hubs | 73.27   | 111.65  | 80.74       |
+| transfers    | 64756   | 338772  | 12838       |
+| nodes        | 280765  | 531720  | 604230      |
+| edges        | 857516  | 1666740 | 1876947     |
+| avg in hubs  | 69.56   | 118.98  | 78.87       |
+| avg out hubs | 68.99   | 117.79  | 78.87       |
